@@ -33,7 +33,7 @@ class Navigation extends React.Component {
             <div className="Navigation-logotype">RAPBOT</div>
           </Link>
         </div>
-        <a className="Navigation-github" href="http://github.com/moises404/artpost-react-dom" target="_blank">
+        <a className="Navigation-github" href="http://github.com/moises404/rapbot" target="_blank">
           <div className="Navigation-github-icn" />
         </a>
       </nav>
