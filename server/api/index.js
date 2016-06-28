@@ -1,4 +1,19 @@
 import express from 'express'
+import rita from 'rita'
+const rs = rita.RiString("The elephant took a bite!");
+console.log(rs.features());
+console.log(rita.RiTa);
+console.log(rita.RiTa.getPhonemes("loose yourself"));
+console.log(rita.RiTa.getPosTags("loose yourself"));
+console.log(rita.RiTa.getStresses("loose yourself"));
+console.log(rita.RiTa.getSyllables("loose yourself"));
+console.log(rita.RiTa.getWordCount("loose yourself"));
+
+const lexicon = new rita.RiLexicon();
+
+const rhymes = lexicon.rhymes("cat");
+
+console.log('rhymes', rhymes);
 
 const router = new express.Router()
 let snapshot = {'snapshot': 'lol'}

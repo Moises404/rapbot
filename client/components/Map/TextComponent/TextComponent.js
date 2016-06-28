@@ -1,6 +1,12 @@
 import React from 'react'
 import cn from 'classnames'
 import Vowels from '../../../fixtures/vowel-sound-chart'
+// import rita from 'rita'
+
+// console.log(rita)
+// console.log(rita.RiTa.getPhonemes("hello world"))
+// console.log(rita.RiTa.getPosTags("hello world"))
+// console.log(rita.RiTa.getStresses("hello world"))
 
 // , { PropTypes }
 
